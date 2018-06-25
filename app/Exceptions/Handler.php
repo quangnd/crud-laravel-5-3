@@ -51,8 +51,6 @@ class Handler extends ExceptionHandler
             return response()->json(['token_invalid'], $exception->getStatusCode());
         }
 
-        return response()->json(['12312312']);
-
         return parent::render($request, $exception);
     }
 
