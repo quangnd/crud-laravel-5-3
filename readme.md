@@ -42,7 +42,7 @@ php artisan migrate
 **5. Running Database Seeder**
 
 ```sh
-php artisan db:migrate
+php artisan db:seed
 ```
 
 **6. Running Development Server**
